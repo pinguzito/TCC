@@ -12,7 +12,7 @@ Desenvolvida como parte do TCC do curso de Engenharia de computação — PUC Go
 
 ## Como usar
 1. Gere uma imagem .dd do dispositivo desejado
-2. Execute o script: `python recuperacao.py`
+2. Execute o script: `ProjetoTCC.py`
 3. Informe o caminho da imagem e da pasta de saída
 4. Selecione os arquivos a recuperar
 
