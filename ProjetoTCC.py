@@ -2,7 +2,7 @@ import pytsk3
 import os
 
 def abrir_imagem(caminho_imagem, offset=0):
-    """Abre uma imagem para análise forense"""
+    #Abre uma imagem para análise forense
     try:
         img = pytsk3.Img_Info(caminho_imagem)
         fs = pytsk3.FS_Info(img, offset * 512)  # offset em setores convertido para bytes
